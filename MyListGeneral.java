@@ -210,7 +210,7 @@ public class MyListGeneral<T> implements Collection<T> {
     public boolean remove(Object o) {
         return false;
     }
-//Не понятно что делают методы
+    
     @Override
     public boolean containsAll(Collection<?> c) {
         return false;
